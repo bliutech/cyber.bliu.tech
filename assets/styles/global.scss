@@ -55,4 +55,15 @@ a:hover {
     text-decoration: underline #FF0000 2px;
 }
 
+code {
+    background-color: grey;
+    display: block;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+img.contacts {
+    display: inline;
+}
+
 @import 'footer', 'nav', 'post';

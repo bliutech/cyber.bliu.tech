@@ -3,7 +3,18 @@ layout: default
 title: Home
 ---
 <h1>💻 Welcome to <span class="underline">cyber.bliu.tech</span>!</h1>
-<p>The cybersecurity website for Benson Liu! Here you will find some of the challenges and writeups I have written for various cybersecurity events!</p>
+<p>
+    The cybersecurity website for Benson Liu! Here you will find some of the 
+    challenges and writeups I have written for various cybersecurity events!
+    This site is a collection of articles, challenges, and writeups I have
+    written for various cybersecurity related topics and problems. If you
+    are interested in reading some of the cybersecurity topics I find
+    interesting, check out some of my <a href="{{ 'articles' | relative_url }}">
+    articles</a>. If you want to see some of the cybersecurity challenges I
+    have written for various events, check out<a href="{{ 'challenges' | relative_url }}">
+    challenges</a>. If you want to see some of my writeups to the challenges
+    I have solved in the past, check out <a href="{{ 'writeups' | relative_url }}">writeups</a>.
+</p>
 
 
 <h2>Recent Posts</h2>
@@ -13,7 +24,7 @@ title: Home
             <div>
                 <div>
                     <h3><a href="{{post.url | absolute_url}}">{{ post.title }}</a></h3>
-                    <span>{{ post.categories }}</span>
+                    <span><a href="{{site.baseurl}}/{{ post.categories }}">{{ post.categories }}</a></span>
                 </div>
                 <em>{{ post.date | date: "%B %-d, %Y" }}</em>
             </div>

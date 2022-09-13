@@ -35,6 +35,14 @@ ul.posts > li {
                 padding: 0.3rem;
                 margin: 2rem 0;
                 border-radius: 0.5rem;
+
+                a {
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                }
             }
         }
 

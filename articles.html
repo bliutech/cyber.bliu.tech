@@ -3,4 +3,28 @@ layout: default
 title: Articles
 ---
 <h1>📰 Articles</h1>
-<p>This page is a work in progress.</p>
+<p>Here are some of the articles I have written discussing various cybersecurity topics I find to be interesting!</p>
+
+<ul class="posts">
+    {% for article in site.categories.articles %}
+        <li>
+            <div>
+                <div>
+                    <h3><a href="{{article.url | absolute_url}}">{{ article.title }}</a></h3>
+                    <span>{{ article.categories }}</span>
+                </div>
+                <em>{{ article.date | date: "%B %-d, %Y" }}</em>
+            </div>
+            <div class="tags">
+
+                <strong>Tags: </strong>
+        
+                {% for tag in article.tags %}
+                    <span>{{tag}}</span>
+                {% endfor %}
+        
+            </div>
+            <p>{{ article.excerpt | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncate: 196 }}</p>
+        </li>
+    {% endfor %}
+</ul>
