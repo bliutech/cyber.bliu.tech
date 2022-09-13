@@ -4,4 +4,9 @@
     <link rel="shortcut icon" type="image/ico" href="{{ "assets/favicon.ico" | relative_url }}">
     <link rel="stylesheet" href="{{ "assets/styles/global.css" | relative_url }}">
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:site_name" content="{{ site.title }}"">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ "assets/images/laptop.png" | relative_url }}"
+    <meta name="theme-color" content="#950101">
 </head>
