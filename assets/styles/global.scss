@@ -1,0 +1,58 @@
+---
+---
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    color: white;
+
+    h1 {
+        font-size: xx-large;
+    }
+
+    h2 {
+        font-size: x-large;
+    }
+
+    h3 {
+        font-size: larger;
+    }
+    
+    p {
+        font-size: large;
+    }
+}
+
+$nav-width: 12rem;
+$nav-padding: 2rem;
+
+main {
+    overflow-wrap: break-word;
+    width: calc(100% - $nav-width);
+    margin-left: $nav-width;
+    padding: 2rem 15%;
+    min-height: 72vh;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #FF0000;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline #FF0000 2px;
+}
+
+@import 'assets/styles/footer', 'assets/styles/nav', 'assets/styles/post';
