@@ -2,11 +2,29 @@
 layout: default
 title: Writeups
 ---
-<h1>Writeups</h1>
+<h1>📝 Writeups</h1>
 <p>Here are some of the writeups that I have written for various challenge I have solved!</p>
 
-<ul>
+<ul class="posts">
     {% for writeup in site.categories.writeups %}
-        <li><a href={{ writeup.url | absolute_url }}>{{ writeup.title }}</a></li>
+        <li>
+            <div>
+                <div>
+                    <h3><a href="{{writeup.url | absolute_url}}">{{ writeup.title }}</a></h3>
+                    <span>{{ writeup.categories }}</span>
+                </div>
+                <em>{{ writeup.date | date: "%B %-d, %Y" }}</em>
+            </div>
+            <div class="tags">
+
+                <strong>Tags: </strong>
+        
+                {% for tag in writeup.tags %}
+                    <span>{{tag}}</span>
+                {% endfor %}
+        
+            </div>
+            <p>{{ writeup.excerpt | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncate: 196 }}</p>
+        </li>
     {% endfor %}
 </ul>

@@ -1,0 +1,8 @@
+footer {
+    text-align: center;
+    width: calc(100% - $nav-width);
+    padding: 2rem 0;
+    background-color: #111111;
+    margin: 0;
+    margin-left: $nav-width;
+}

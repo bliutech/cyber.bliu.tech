@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-# About
+# 🏠 About
 
 ```python
 print("Hello World!")

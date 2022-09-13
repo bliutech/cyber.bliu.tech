@@ -1,5 +1,5 @@
 nav {
-    background-color: red;
+    background-color: #950101;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,8 +26,7 @@ nav {
         }
 
         li > a:hover {
-            color: blue;
-            background-color: orange;
+            background-color: #FF0000;
         }
     }
 }

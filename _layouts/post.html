@@ -2,6 +2,23 @@
 layout: default
 ---
 <article>
+    <- <a href=".">back to {{ page.categories }}</a>
+
     <h1>{{ page.title }}</h1>
+
+    <em>{{ page.date | date: "%B %-d, %Y" }}</em>
+
+    <div class="tags">
+
+        <strong>Tags: </strong>
+
+        {% for tag in page.tags %}
+            <span>{{tag}}</span>
+        {% endfor %}
+
+    </div>
+
+    <hr>
+    
     {{ content }}
 </article>
