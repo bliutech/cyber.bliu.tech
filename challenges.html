@@ -1,0 +1,12 @@
+---
+layout: default
+title: Challenges
+---
+<h1>Challenges</h1>
+<p>Here are some of the challenges that I have written for various workshops and events!</p>
+
+<ul>
+    {% for challenge in site.categories.challenges %}
+        <li><a href={{ challenge.url | absolute_url }}>{{ challenge.title }}</a></li>
+    {% endfor %}
+</ul>

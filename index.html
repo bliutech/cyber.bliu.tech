@@ -1,0 +1,20 @@
+---
+layout: default
+title: Home
+---
+<h1>💻 Welcome to <span class="underline">cyber.bliu.tech</span>!</h1>
+<p>The cybersecurity website for Benson Liu! Here you will find some of the challenges and writeups I have written for various cybersecurity events!</p>
+
+
+<h2>Recent Posts</h2>
+<ul>
+    {% for post in site.posts limit:3 %}
+        <li><a href="{{post.url | absolute_url}}">{{ post.title }}</a> {{post.categories}} {{ post.date | date: "%B %-d, %Y" }} {{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</li>
+    {% endfor %}
+</ul>
+
+<h2>Search</h2>
+<form method="get" action="http://www.google.com/search" target="_blank">
+    <input type="hidden" name="sitesearch" value="{{ site.url }}" />
+    <input type="text" name="q" maxlength="255" placeholder="Search with Google" />
+</form>
