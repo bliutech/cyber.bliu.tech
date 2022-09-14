@@ -10,4 +10,4 @@ github:  bliutech
 sass:
   sass_dir: assets/styles
 
-permalink: /:categories/:title:output_ext
+permalink: /:categories/:title
