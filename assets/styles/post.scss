@@ -8,16 +8,14 @@ ul.posts {
 }
 
 ul.posts > li {
-    // border: 0.2rem solid white;
     border-radius: 0.5rem;
     padding: 2rem 2rem 0 2rem;
-    margin: 2rem 10%;
+    margin: 2rem 4%;
     min-height: 8rem;
     background-color: #333333;
     box-shadow: 3px 3px transparentize(#000000, 0.75), -3px 3px transparentize(#000000, 0.75), 3px -3px transparentize(#000000, 0.75), -3px -3px transparentize(#000000, 0.75);
 
     div {
-
         div {
             display: inline;
 
@@ -48,6 +46,7 @@ ul.posts > li {
 
         em {
             float: right;
+            margin-top: 0.2rem;
         }
     }
 }
@@ -62,6 +61,7 @@ ul.posts > li:hover {
 
 .tags {
     margin: 1rem 0;
+    
     span {
         background-color: #FF0000;
         padding: 0.3rem;

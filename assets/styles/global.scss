@@ -27,13 +27,41 @@ body{
 
 $nav-width: 12rem;
 $nav-padding: 2rem;
+$page-margin: $nav-width;
+
+@media screen and (max-width: 768px){
+    main {
+        padding: 0 4%;
+        width: 92%;
+        margin-left: 0;
+        min-height: 78vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        padding: 0 5%;
+        width: calc(100% - $page-margin);
+        margin-left: $page-margin;
+        min-height: 72vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        padding: 2rem 10%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    main {
+        padding: 2rem 15%;
+    }
+}
+
 
 main {
     overflow-wrap: break-word;
-    width: calc(100% - $nav-width);
-    margin-left: $nav-width;
-    padding: 2rem 15%;
-    min-height: 72vh;
 }
 
 img {
