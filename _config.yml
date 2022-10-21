@@ -11,3 +11,7 @@ sass:
   sass_dir: assets/styles
 
 permalink: /:categories/:title
+
+exclude:
+ - README.md
+ - .github/

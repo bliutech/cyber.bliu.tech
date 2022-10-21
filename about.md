@@ -1,10 +1,11 @@
 ---
 layout: default
 title: About
+description: Here is some more information about me!
 ---
 # 🏠 About
 
-<img src="{{ '/assets/images/bliu-headshot.jpg' | relative_url }}" alt="Headshot of Benson wearing an ACM jacket at UCLA." width="50%">
+<img src="{{ '/assets/images/bliu-headshot.jpg' | relative_url }}" alt="Headshot of Benson wearing an ACM jacket at UCLA." width="50%" class="headshot">
 
 👋 My name is Benson Liu! I'm a computer science major at UCLA who has an interest in cybersecurity! I compete in a lot of CTFs or Capture the Flag competitions which are jeopardy-style cybersecurity events. Currently, I am an Officer for [ACM Cyber at UCLA](https://acmcyber.com/) and the Director for [Psi Beta Rho](https://pbr.uclaacm.com/), UCLA's competetive cybersecurity team!
 

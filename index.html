@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+description: {{ site.description }}
 ---
 <h1>💻 Welcome to <span class="underline">cyber.bliu.tech</span>!</h1>
 <p>
@@ -15,7 +16,6 @@ title: Home
     challenges</a>. If you want to see some of my writeups to the challenges
     I have solved in the past, check out <a href="{{ 'writeups' | relative_url }}">writeups</a>.
 </p>
-
 
 <h2>Recent Posts</h2>
 <ul class="posts">
@@ -37,7 +37,7 @@ title: Home
                 {% endfor %}
         
             </div>
-            <p><em>{{ post.excerpt | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncate: 196 }}</em></p>
+            <p><em>{{ post.description | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncate: 196 }}</em></p>
         </li>
     {% endfor %}
 </ul>

@@ -1,4 +1,4 @@
-# [cyber.bliu.tech](https://cyber.bliu.tech)
+# 💻 [cyber.bliu.tech](https://cyber.bliu.tech) 💻
 A website containing write ups, challenges, & other cybersecurity related content that I have worked on! The site was implemented using Jekyll. To access the site, visit [https://cyber.bliu.tech](https://cyber.bliu.tech)
 
 ## Deploying the Site Locally
