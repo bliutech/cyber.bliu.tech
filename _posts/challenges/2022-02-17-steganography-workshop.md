@@ -12,13 +12,13 @@ I wrote three challenges for a [workshop]({{ "articles/steganography-workshop" |
 
 ---
 
-## Acatstic Poetry (Stego 20)
-
-**Prompt:** Steganography is a lot like a [C.A.T.](https://github.com/bliutech/cyber-tower/raw/main/challenges/cyber-academy-w22/acatstic-poetry/cat.zip) **C**ontains secret data. **A**lternative data format. **T**ricky formatting.
-
 ## Stegosaur (Stego 10)
 
 **Prompt:** Many years ago, the [stegosaurs](https://github.com/bliutech/cyber-tower/raw/main/challenges/cyber-academy-w22/stegosaur/stegosaur.jpg) roamed the planet concealing their secret data within other forms of data. Until one day, they suddenly went... EXIF-stinct!!!
+
+## Acatstic Poetry (Stego 20)
+
+**Prompt:** Steganography is a lot like a [C.A.T.](https://github.com/bliutech/cyber-tower/raw/main/challenges/cyber-academy-w22/acatstic-poetry/cat.zip) **C**ontains secret data. **A**lternative data format. **T**ricky formatting.
 
 ## What came first? (Stego 30)
 
