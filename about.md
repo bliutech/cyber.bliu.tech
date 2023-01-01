@@ -16,3 +16,4 @@ For more information about me, please check out some of my other online profiles
 - 💻 Personal Website: [https://www.bliu.tech/](https://www.bliu.tech/)
 - <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width=20px class="contacts" /> LinkedIn: [https://www.linkedin.com/in/bliutech/](https://www.linkedin.com/in/bliutech/)
 - <img src="https://pbs.twimg.com/profile_images/2189766987/ctftime-logo-avatar_400x400.png" width=20px class="contacts" /> CTF Time: [https://ctftime.org/user/129489](https://ctftime.org/user/129489)
+- <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Twitter-logo.svg" width=20px class="contacts" /> Twitter: [https://twitter.com/am_i_bliu](https://twitter.com/am_i_bliu)
