@@ -6,9 +6,9 @@ tags: steganography forensics beginner
 description: Challenges I wrote for CTF After Dark - Winter 2022 hosted by ACM Cyber at UCLA.
 ---
 
-<img src="{{ "assets/articles/ctf-after-dark-banner-w22.png" | relative_url }}" alt="Cyber Academy: Steganography Workshop Banner" width="100%"/>
+<img src="{{ "assets/articles/ctf-after-dark-banner-w22.png" | relative_url }}" alt="CTF After Dark - Winter 2022 Banner" width="100%"/>
 
-One of my challenges from Cyber Academy Winte 2022 unfortunately did not get any solves. I decided to reuse it for CTF After Dark - Winter 2022 for ACM Cyber at UCLA in the hopes that someone would solve it. Below I have attached the challenge. It is meant to be beginner friendly and cover content mentioned during the quarter at Cyber Academy. I hope you enjoy the challenge!
+One of my challenges from my steganography workshop unfortunately did not get any solves. I decided to reuse it for CTF After Dark - Winter 2022 for ACM Cyber at UCLA in the hopes that someone would solve it. Below I have attached the challenge. It is meant to be beginner friendly and cover content mentioned during the quarter at Cyber Academy. I hope you enjoy the challenge!
 
 ---
 
