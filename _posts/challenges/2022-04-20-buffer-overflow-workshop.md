@@ -3,7 +3,7 @@ layout: post
 title: Buffer Overflow & Binary Exploitation Workshop Challenges
 categories: challenges
 tags: buffer-overflow binary-exploitation pwn
-description: Challenges I wrote for my buffer overflow & binary exploitation workshop for ACM at UCLA.
+description: Challenges I wrote for my buffer overflow & binary exploitation workshop for ACM Cyber at UCLA.
 ---
 
 <img src="{{ "assets/articles/buffer-overflow-workshop-banner-s22.png" | relative_url }}" alt="Cyber Academy: Buffer Overflow & Binary Exploitation Basics Workshop Banner" width="100%"/>
