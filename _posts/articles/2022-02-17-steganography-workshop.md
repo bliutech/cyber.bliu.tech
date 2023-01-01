@@ -8,7 +8,6 @@ description: A workshop I taught for ACM Cyber at UCLA relating to steganography
 
 <img src="{{ "assets/articles/steganography-workshop-banner-w22.png" | relative_url }}" alt="Square CTF logo." width="100%"/>
 
-
 I recently just joined [ACM Cyber at UCLA](https://acmcyber.com/) as a ***Cyber Intern***. As part of the club, I have been helping out with a workshop series we have been running this quarted called ***Cyber Academy*** where we delve into different topics in cybersecurity. This quarter, we have been focusing on ***forensics*** and I was tasked with teaching a workshop on steganography. I had a lot of fun preparing and teaching this workshop since for a long time, steganography has been one of my favorite topics in cybersecurity. Below is a recording of the workshop.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mvx1K__PoJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
