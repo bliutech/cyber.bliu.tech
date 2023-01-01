@@ -6,7 +6,7 @@ tags: steganography forensics beginner
 description: Challenges I wrote for my steganography workshop for ACM Cyber at UCLA.
 ---
 
-<img src="{{ "assets/articles/steganography-workshop-banner-w22.png" | relative_url }}" alt="Square CTF logo." width="100%"/>
+<img src="{{ "assets/articles/steganography-workshop-banner-w22.png" | relative_url }}" alt="Cyber Academy: Steganography Workshop Banner" width="100%"/>
 
 I wrote three challenges for a [workshop]({{ "articles/steganography-workshop" | relative_url }}) I taught for ACM Cyber at UCLA on steganography. Below I have attached the challenges. They are meant to be beginner friendly and cover content mentioned during the workshop. I hope you enjoy them!
 
