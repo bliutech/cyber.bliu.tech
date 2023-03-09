@@ -9,6 +9,10 @@ body{
     background-color: #222222;
     color: white;
 
+    h1, h2, h3 {
+        text-decoration: underline red 0.25rem;
+    }
+
     h1 {
         font-size: xx-large;
     }
@@ -83,13 +87,6 @@ a:hover {
     text-decoration: underline #FF0000 2px;
 }
 
-// code {
-//     background-color: black;
-//     display: block;
-//     padding: 1rem;
-//     border-radius: 0.3rem;
-// }
-
 /* Hide scrollbar for Chrome, Safari and Opera */
 code::-webkit-scrollbar {
     display: none;
@@ -112,6 +109,13 @@ code {
 
 img.contacts {
     display: inline;
+}
+
+// Allow for inline snippets
+code.language-plaintext {
+    display: inline;
+    padding: 0.25rem;
+    font-size: medium;
 }
 
 @import 'footer', 'nav', 'post';
