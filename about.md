@@ -9,7 +9,7 @@ description: Here is some more information about me!
 
 👋 My name is Benson Liu! I'm a computer science major at UCLA who has an interest in cybersecurity! I compete in a lot of CTFs or Capture the Flag competitions which are jeopardy-style cybersecurity events. Currently, I am one of the Co-Presidents for [ACM Cyber at UCLA](https://acmcyber.com/) and the Director for [Psi Beta Rho](https://pbr.uclaacm.com/), UCLA's competetive cybersecurity team!
 
-This site is a collection of articles, challenges, and writeups I have written for various cybersecurity related topics and problems. If you are interested in reading some of the cybersecurity topics I find interesting, check out some of my [articles]({{ "articles" | relative_url }}). If you want to see some of the cybersecurity challenges I have written for various events, check out [challenges]({{ "challenges" | relative_url }}). If you want to see some of my writeups to the challenges I have solved in the past, check out [writeups]({{ "writeups" | relative_url }}).
+This site is a collection of articles, challenges, and writeups I have written for various cybersecurity related topics and problems. If you are interested in reading some of the cybersecurity topics I find interesting, check out some of my <a href="{{ 'articles' | relative_url }}"> articles</a>. If you want to see some of my writeups to the challenges I have solved or written in the past, check out <a href="{{ 'writeups' | relative_url }}">writeups</a>.
 
 For more information about me, please check out some of my other online profiles.
 
