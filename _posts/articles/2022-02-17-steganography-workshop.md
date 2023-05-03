@@ -21,6 +21,4 @@ I collaborated on this workshop with two Cyber Officers (Matt and Yufa) and one 
   <iframe src="https://docs.google.com/presentation/d/1zCb7iM8os4xBL7hDIPIvIb4iE75SKCWDeHUauf2_Be8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
-I was pretty estatic with my first workshop for ACM Cyber since it was a subject matter that I have been interested in for a long time. I am super excited to continue teaching workshops in the future and learning more about cybersecurity. If you are interested in trying to solve some of the challenges I wrote for this workshop, you can find them below. I have also included the solutions to the challenges. I hope you enjoy them!
-
-***Challenges:*** [https://cyber.bliu.tech/challenges/steganography-workshop]({{ "challenges/steganography-workshop" | relative_url }})
+I was pretty estatic with my first workshop for ACM Cyber since it was a subject matter that I have been interested in for a long time. I am super excited to continue teaching workshops in the future and learning more about cybersecurity. 
