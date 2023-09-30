@@ -61,7 +61,7 @@ ul.posts > li {
 }
 
 ul.posts > li:hover {
-    box-shadow: 6px 6px inset transparentize(#000000, 0.75), -6px 6px inset transparentize(#000000, 0.75), 6px -6px inset transparentize(#000000, 0.75), -6px -6px inset transparentize(#000000, 0.75);
+    box-shadow: 2px 2px inset transparentize(#000000, 0.75), -2px -2px inset transparentize(#000000, 0.75), 2px -2px inset transparentize(#000000, 0.75), -2px -2px inset transparentize(#000000, 0.75);
 
     a {
         text-decoration: underline #FF0000 2px;
