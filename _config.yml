@@ -20,7 +20,7 @@ timezone:
 
 title: cyber.bliu.tech # the main title
 
-tagline: A hacker's blog. # it will display as the sub-title
+tagline: Cybersecurity, CTFs, Hacking. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A website containing write ups, challenges, & other cybersecurity related content for Benson Liu!
@@ -113,7 +113,7 @@ assets:
 pwa:
   enabled: true # the option for PWA feature
 
-paginate: 10
+paginate: 5
 
 # ------------ The following options are not recommended to be modified ------------------
 
