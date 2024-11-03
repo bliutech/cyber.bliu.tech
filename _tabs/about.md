@@ -14,8 +14,8 @@ This site is a collection of articles and writeups I have written for various cy
 I have written challenges for a few CTFs that I have helped organized. Below I have listed some of the challenges I have written with their respective CTFs and corresponding writeups.
 
 [**LA CTF 2024**](https://lac.tf)
-- [pwn/52-card-monty](http://localhost:4000/posts/lactf-2024/#pwn52-card-monty): ret2win on an interesting card game bypassing PIE and stack canaries.
-- [web/ctf-wiki](/posts/lactf-2024/#webctf-wiki): Unauthenticated XSS on a wiki website with `SameSite=Lax` cookies.
+- pwn/52-card-monty: ret2win on an interesting card game bypassing PIE and stack canaries.
+- web/ctf-wiki: Unauthenticated XSS on a wiki website with `SameSite=Lax` cookies.
 
 [**LA CTF 2023**](https://website.2023.lac.tf)
 - [pwn/gatekeep](/posts/lactf-2023/#pwngatekeep): Buffer overflow to bypass `/dev/urandom` check.
